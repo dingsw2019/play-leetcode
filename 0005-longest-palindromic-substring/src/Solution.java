@@ -42,7 +42,9 @@ class Solution {
     public String longestPalindrome2(String s) {
 
         int len = s.length();
-        int maxLen = 0;
+        if (len < 2)
+            return s;
+        int maxLen = 1;
         int begin = 0;
 
         boolean[][] dp = new boolean[len][len];
