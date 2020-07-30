@@ -42,6 +42,4 @@ class Solution {
             path.removeLast();
         }
     }
-
-
 }
