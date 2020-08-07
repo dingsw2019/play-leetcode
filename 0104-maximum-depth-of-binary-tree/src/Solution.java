@@ -18,6 +18,7 @@ class Solution {
             return depth;
         }
 
+
         int leftDepth = depth(node.left,depth+1);
         int rightDepth = depth(node.right,depth+1);
 
