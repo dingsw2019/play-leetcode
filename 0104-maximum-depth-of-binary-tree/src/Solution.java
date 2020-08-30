@@ -8,6 +8,7 @@ class Solution {
         TreeNode(int x) { val = x; }
     }
 
+
     public int maxDepth(TreeNode root) {
         return depth(root,0);
     }
